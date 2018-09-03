@@ -1,6 +1,9 @@
 {
   "name": "npx-install",
   "version": "0.0.0",
+  "bin": {
+    "npx-install": "./index.js"
+  },
   "scripts": {
     "preinstall": "echo \"This is run before install\"",
     "postinstall": "echo \"This is run after install\""
